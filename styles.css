@@ -1,0 +1,21 @@
+body {
+  background-color: lightgrey;
+  margin: 0;
+}
+
+header {
+  background-color: purple;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 20px
+}
+
+.left-header-nav a {
+  padding-right: 15px
+}
+
+.right-header-nav a {
+  padding-left: 15px;
+}
