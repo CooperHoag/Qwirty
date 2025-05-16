@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 
-header {
+.top-nav {
   background-color: purple;
   color: white;
   display: flex;
@@ -12,10 +12,34 @@ header {
   font-size: 20px
 }
 
-.left-header-nav a {
+.left-links a {
   padding-right: 15px
 }
 
-.right-header-nav a {
+.right-links a {
   padding-left: 15px;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  align-items: center;
+}
+
+.search {
+  width: 50%;
+  padding: 5px;
+}
+
+.financing-button{
+  padding: 10px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.financing-button:hover {
+  background-color: darkred;
 }
